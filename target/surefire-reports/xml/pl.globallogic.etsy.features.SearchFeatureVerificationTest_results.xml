@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="11,083">
+           time="8,222">
   <properties />
   
   
-            <testcase name="shouldDisplaySearchResultsForValidQuery" time="5,871" classname="pl.globallogic.etsy.features.SearchFeatureVerificationTest" />
-                <testcase name="shouldDisplayNotFoundPageForInvalidQuery" time="5,212" classname="pl.globallogic.etsy.features.SearchFeatureVerificationTest" />
+            <testcase name="shouldDisplayNotFoundPageForInvalidQuery" time="3,521" classname="pl.globallogic.etsy.features.SearchFeatureVerificationTest" />
+                <testcase name="shouldDisplaySearchResultsForValidQuery" time="4,701" classname="pl.globallogic.etsy.features.SearchFeatureVerificationTest" />
       
 </testsuite>

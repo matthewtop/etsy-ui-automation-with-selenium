@@ -17,7 +17,7 @@ public class LandingPage {
     private static final String SEARCH_FIELD_ID = "global-enhancements-search-query";
 
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public LandingPage(WebDriver driver) {
         this.driver = driver;
