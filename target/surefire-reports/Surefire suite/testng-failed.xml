@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="pl.globallogic.wdcapatibilities.DrawCanvasDemoTest">
+        <methods>
+          <include name="globalSetup"/>
+          <include name="globalCleanUp"/>
+          <include name="shouldDrawCircleInCanvas"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- pl.globallogic.wdcapatibilities.DrawCanvasDemoTest -->
+      <class name="pl.globallogic.wdcapatibilities.TimeoutDemoTest">
+        <methods>
+          <include name="shouldWaitUntilCalculationResultWillBePresent"/>
+          <include name="globalSetup"/>
+          <include name="globalCleanUp"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="shouldWaitForLandingPageImageToBeVisible"/>
+        </methods>
+      </class> <!-- pl.globallogic.wdcapatibilities.TimeoutDemoTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

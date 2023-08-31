@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5,232">
+           time="2,987">
   <properties />
   
   
-            <testcase name="shouldNavigateToGoogleComAndVerifyPageTitle" time="5,232" classname="pl.globallogic.configuration.SeleniumConfigurationVerificationTest" />
+            <testcase name="shouldNavigateToGoogleComAndVerifyPageTitle" time="2,987" classname="pl.globallogic.configuration.SeleniumConfigurationVerificationTest" />
       
 </testsuite>
