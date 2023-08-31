@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="11,234">
+           time="12,078">
   <properties />
   
   
-            <testcase name="shouldWaitUntilCalculationResultWillBePresent" time="11,234" classname="pl.globallogic.wdcapatibilities.TimeoutDemoTest" />
+            <testcase name="shouldDrawCircleInCanvas" time="12,078" classname="pl.globallogic.wdcapatibilities.DrawCanvasDemoTest" />
       
 </testsuite>

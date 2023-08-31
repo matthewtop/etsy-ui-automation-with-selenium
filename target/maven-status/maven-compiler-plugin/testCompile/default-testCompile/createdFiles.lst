@@ -1,6 +1,0 @@
-pl\globallogic\etsy\features\SearchFeatureVerificationTest.class
-pl\globallogic\configuration\SeleniumConfigurationVerificationTest.class
-pl\globallogic\wdcapatibilities\DrawCanvasDemoTest.class
-pl\globallogic\configuration\TestNGConfigurationVerificationTest.class
-pl\globallogic\wdcapatibilities\BaseCapabilitiesDemoTest.class
-pl\globallogic\wdcapatibilities\TimeoutDemoTest.class

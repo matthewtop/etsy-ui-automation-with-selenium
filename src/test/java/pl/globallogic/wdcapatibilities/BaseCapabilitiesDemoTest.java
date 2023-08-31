@@ -12,11 +12,11 @@ public class BaseCapabilitiesDemoTest {
     protected WebDriver driver;
     protected String SANDBOX_ADDRESS ="https://bonigarcia.dev/selenium-webdriver-java/";
 
-    String WEB_FORM = SANDBOX_ADDRESS = "web-form.html";
-    String DROPDOWN_MENU = SANDBOX_ADDRESS = "dropdown-menu.html";
-    String DRAW_IN_CANVAS = SANDBOX_ADDRESS = "draw-in-canvas.html";
-    String LOADING_IMAGES = SANDBOX_ADDRESS = "loading-images.html";
-    String SLOW_CALCULATOR= SANDBOX_ADDRESS = "slow-calculator.html";
+    String WEB_FORM = SANDBOX_ADDRESS + "web-form.html";
+    String DROPDOWN_MENU = SANDBOX_ADDRESS + "dropdown-menu.html";
+    String DRAW_IN_CANVAS = SANDBOX_ADDRESS + "draw-in-canvas.html";
+    String LOADING_IMAGES = SANDBOX_ADDRESS + "loading-images.html";
+    String SLOW_CALCULATOR= SANDBOX_ADDRESS + "slow-calculator.html";
 
     protected void sleep(){
         try{
