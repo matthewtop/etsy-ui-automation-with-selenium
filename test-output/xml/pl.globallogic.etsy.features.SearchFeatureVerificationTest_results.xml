@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="etsy-ui-automation-with-selenium"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16,114">
+  <properties />
+  
+  
+            <testcase name="shouldDisplaySearchResultsForValidIItems" time="8,010" classname="pl.globallogic.etsy.features.SearchFeatureVerificationTest" />
+                <testcase name="shouldDisplayNotFoundPageForValidQuery" time="8,104" classname="pl.globallogic.etsy.features.SearchFeatureVerificationTest" />
+      
+</testsuite>

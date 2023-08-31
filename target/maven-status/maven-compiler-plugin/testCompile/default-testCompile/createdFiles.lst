@@ -1,0 +1,3 @@
+pl\globallogic\etsy\features\SearchFeatureVerificationTest.class
+pl\globallogic\configuration\TestNGConfigurationVerificationTest.class
+pl\globallogic\configuration\SeleniumConfigurationVerificationTest.class

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T15:56:26 CEST" name="Surefire suite" finished-at="2023-08-31T15:56:49 CEST" duration-ms="23703">
+    <groups>
+    </groups>
+    <test started-at="2023-08-31T15:56:26 CEST" name="Surefire test" finished-at="2023-08-31T15:56:49 CEST" duration-ms="23703">
+      <class name="pl.globallogic.configuration.TestNGConfigurationVerificationTest">
+        <test-method signature="shouldAlwaysBeTrue()[pri:0, instance:pl.globallogic.configuration.TestNGConfigurationVerificationTest@411f53a0]" started-at="2023-08-31T15:56:33 CEST" name="shouldAlwaysBeTrue" finished-at="2023-08-31T15:56:33 CEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAlwaysBeTrue -->
+      </class> <!-- pl.globallogic.configuration.TestNGConfigurationVerificationTest -->
+      <class name="pl.globallogic.etsy.features.SearchFeatureVerificationTest">
+        <test-method is-config="true" signature="globalSetUp()[pri:0, instance:pl.globallogic.etsy.features.SearchFeatureVerificationTest@13c9d689]" started-at="2023-08-31T15:56:33 CEST" name="globalSetUp" finished-at="2023-08-31T15:56:35 CEST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetUp -->
+        <test-method signature="shouldDisplayNotFoundPageForInvalidQuery()[pri:0, instance:pl.globallogic.etsy.features.SearchFeatureVerificationTest@13c9d689]" started-at="2023-08-31T15:56:35 CEST" name="shouldDisplayNotFoundPageForInvalidQuery" finished-at="2023-08-31T15:56:40 CEST" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDisplayNotFoundPageForInvalidQuery -->
+        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:pl.globallogic.etsy.features.SearchFeatureVerificationTest@13c9d689]" started-at="2023-08-31T15:56:40 CEST" name="testCleanUp" finished-at="2023-08-31T15:56:41 CEST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method is-config="true" signature="globalSetUp()[pri:0, instance:pl.globallogic.etsy.features.SearchFeatureVerificationTest@13c9d689]" started-at="2023-08-31T15:56:41 CEST" name="globalSetUp" finished-at="2023-08-31T15:56:43 CEST" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetUp -->
+        <test-method signature="shouldDisplaySearchResultsForValidQuery()[pri:0, instance:pl.globallogic.etsy.features.SearchFeatureVerificationTest@13c9d689]" started-at="2023-08-31T15:56:43 CEST" name="shouldDisplaySearchResultsForValidQuery" finished-at="2023-08-31T15:56:49 CEST" duration-ms="5871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDisplaySearchResultsForValidQuery -->
+        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:pl.globallogic.etsy.features.SearchFeatureVerificationTest@13c9d689]" started-at="2023-08-31T15:56:49 CEST" name="testCleanUp" finished-at="2023-08-31T15:56:49 CEST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method is-config="true" signature="globalCleanUp()[pri:0, instance:pl.globallogic.etsy.features.SearchFeatureVerificationTest@13c9d689]" started-at="2023-08-31T15:56:49 CEST" name="globalCleanUp" finished-at="2023-08-31T15:56:49 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalCleanUp -->
+      </class> <!-- pl.globallogic.etsy.features.SearchFeatureVerificationTest -->
+      <class name="pl.globallogic.configuration.SeleniumConfigurationVerificationTest">
+        <test-method signature="shouldNavigateToGoogleComAndVerifyPageTitle()[pri:0, instance:pl.globallogic.configuration.SeleniumConfigurationVerificationTest@5fe94a96]" started-at="2023-08-31T15:56:26 CEST" name="shouldNavigateToGoogleComAndVerifyPageTitle" finished-at="2023-08-31T15:56:33 CEST" duration-ms="7265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToGoogleComAndVerifyPageTitle -->
+      </class> <!-- pl.globallogic.configuration.SeleniumConfigurationVerificationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

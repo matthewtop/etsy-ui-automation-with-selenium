@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11,083">
+  <properties />
+  
+  
+            <testcase name="shouldDisplaySearchResultsForValidQuery" time="5,871" classname="pl.globallogic.etsy.features.SearchFeatureVerificationTest" />
+                <testcase name="shouldDisplayNotFoundPageForInvalidQuery" time="5,212" classname="pl.globallogic.etsy.features.SearchFeatureVerificationTest" />
+      
+</testsuite>
