@@ -3,13 +3,17 @@ package pl.globallogic.etsy.wdcapatibilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.log4testng.Logger;
 
 public class BaseCapabilitiesDemoTest {
     protected WebDriver driver;
+
+    protected Logger logger = (Logger) LoggerFactory.getLogger(BaseCapabilitiesDemoTest.class);
     protected String SANDBOX_ADDRESS ="https://bonigarcia.dev/selenium-webdriver-java/";
 
     String WEB_FORM = SANDBOX_ADDRESS + "web-form.html";
@@ -29,15 +33,12 @@ public class BaseCapabilitiesDemoTest {
 
     @BeforeClass
     public void globalSetup(){
-        WebDriverManager.chromedriver().setup();
-        System.out.println("Starting Selenium Webdriver capabilities demonstration");
-
+//        WebDriverManager.chromedriver().setup();
+        logger.warn("Starting Selenium Webdriver capabilities demonstration");
     }
 
     @BeforeMethod
-    public void setUp(){
-        driver=new ChromeDriver();
-    }
+    public void setUp(){driver= new ChromeDriver();}
 
     @AfterMethod(alwaysRun = true)
     public void cleanUp(){
@@ -46,8 +47,7 @@ public class BaseCapabilitiesDemoTest {
 
     @AfterClass
     public void globalCleanUp(){
-        System.out.println("Finished with web driver capabilities demonstration");
-
+        logger.warn("Finished with web driver capabilities demonstration");
     }
 
 
