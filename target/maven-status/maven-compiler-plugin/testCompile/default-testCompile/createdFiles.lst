@@ -1,7 +1,10 @@
 pl\globallogic\etsy\features\SearchFeatureVerificationTest.class
-pl\globallogic\etsy\features\SearchResultFilteringFeatureTest.class
+pl\globallogic\etsy\features\SearchResultsSortingTest.class
 pl\globallogic\configuration\SeleniumConfigurationVerificationTest.class
+pl\globallogic\etsy\BaseLandingPageTest.class
 pl\globallogic\etsy\wdcapatibilities\TimeoutDemoTest.class
 pl\globallogic\etsy\wdcapatibilities\DrawCanvasDemoTest.class
 pl\globallogic\configuration\TestNGConfigurationVerificationTest.class
+pl\globallogic\etsy\features\SearchResultFilteringTest.class
 pl\globallogic\etsy\wdcapatibilities\BaseCapabilitiesDemoTest.class
+pl\globallogic\etsy\features\ItemDetailsPageVerificationTest.class

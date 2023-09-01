@@ -1,6 +1,9 @@
 D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\configuration\SeleniumConfigurationVerificationTest.java
 D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\etsy\wdcapatibilities\BaseCapabilitiesDemoTest.java
-D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\etsy\features\SearchResultFilteringFeatureTest.java
+D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\etsy\BaseLandingPageTest.java
+D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\etsy\features\ItemDetailsPageVerificationTest.java
+D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\etsy\features\SearchResultsSortingTest.java
+D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\etsy\features\SearchResultFilteringTest.java
 D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\etsy\wdcapatibilities\DrawCanvasDemoTest.java
 D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\configuration\TestNGConfigurationVerificationTest.java
 D:\javaPractice\etsy-ui-automation-with-selenium\src\test\java\pl\globallogic\etsy\wdcapatibilities\TimeoutDemoTest.java
