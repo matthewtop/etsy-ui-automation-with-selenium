@@ -1,6 +1,5 @@
 package pl.globallogic.etsy.wdcapatibilities;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.LoggerFactory;
@@ -49,7 +48,5 @@ public class BaseCapabilitiesDemoTest {
     public void globalCleanUp(){
         logger.warn("Finished with web driver capabilities demonstration");
     }
-
-
 
 }
