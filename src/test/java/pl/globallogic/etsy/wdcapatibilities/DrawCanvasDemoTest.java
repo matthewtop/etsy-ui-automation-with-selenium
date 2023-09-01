@@ -1,4 +1,4 @@
-package pl.globallogic.wdcapatibilities;
+package pl.globallogic.etsy.wdcapatibilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -16,7 +16,6 @@ public class DrawCanvasDemoTest extends BaseCapabilitiesDemoTest{
         actions.moveToElement(canvas).clickAndHold();
         drawCircle(actions);
         actions.release(canvas).build().perform();
-
     }
 
     private void drawCircle(Actions actions) {

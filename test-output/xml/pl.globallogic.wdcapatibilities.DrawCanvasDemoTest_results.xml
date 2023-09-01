@@ -8,6 +8,6 @@
   <properties />
   
   
-            <testcase name="shouldDrawCircleInCanvas" time="12,078" classname="pl.globallogic.wdcapatibilities.DrawCanvasDemoTest" />
+            <testcase name="shouldDrawCircleInCanvas" time="12,078" classname="pl.globallogic.etsy.wdcapatibilities.wdcapatibilities.DrawCanvasDemoTest" />
       
 </testsuite>

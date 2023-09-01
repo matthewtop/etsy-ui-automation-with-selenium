@@ -8,6 +8,6 @@
   <properties />
   
   
-            <testcase name="shouldWaitUntilCalculationResultWillBePresent" time="11,234" classname="pl.globallogic.wdcapatibilities.TimeoutDemoTest" />
+            <testcase name="shouldWaitUntilCalculationResultWillBePresent" time="11,234" classname="pl.globallogic.etsy.wdcapatibilities.wdcapatibilities.TimeoutDemoTest" />
       
 </testsuite>
