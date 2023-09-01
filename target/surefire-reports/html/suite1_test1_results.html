@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Surefire test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">pl.globallogic.configuration.SeleniumConfigurationVerificationTest<br>pl.globallogic.configuration.TestNGConfigurationVerificationTest<br>pl.globallogic.etsy.features.SearchFeatureVerificationTest<br>pl.globallogic.etsy.features.SearchResultFilteringFeatureTest<br>pl.globallogic.etsy.wdcapatibilities.BaseCapabilitiesDemoTest<br>pl.globallogic.etsy.wdcapatibilities.DrawCanvasDemoTest<br>pl.globallogic.etsy.wdcapatibilities.TimeoutDemoTest<br></th>
+	    <th id="testClassNameId" hidden="true">SeleniumConfigurationVerificationTest<br>TestNGConfigurationVerificationTest<br>SearchFeatureVerificationTest<br>SearchResultFilteringFeatureTest<br>BaseCapabilitiesDemoTest<br>DrawCanvasDemoTest<br>TimeoutDemoTest<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Surefire suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">$utils.getSuiteXMLName($result)</th>
+	  	<th id="suiteXMLNameId" hidden="true">$utils.getSuiteXMLFileName($result)</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:00:52</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>11</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																				
+				
+				
+												<tr>
+			<td class="time">1693574823440</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('05d6b9d9-5bea-4d77-aef8-ecaaf57ee6cb','block');changeSingleIcon('span-05d6b9d9-5bea-4d77-aef8-ecaaf57ee6cb');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.configuration.SeleniumConfigurationVerificationTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-05d6b9d9-5bea-4d77-aef8-ecaaf57ee6cb' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574823440</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>shouldNavigateToGoogleComAndVerifyPageTitle</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>4,375s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="05d6b9d9-5bea-4d77-aef8-ecaaf57ee6cb" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1693574827817</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('ddc99f8b-1e1d-439e-aeed-80b81c84fd55','block');changeSingleIcon('span-ddc99f8b-1e1d-439e-aeed-80b81c84fd55');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.configuration.TestNGConfigurationVerificationTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-ddc99f8b-1e1d-439e-aeed-80b81c84fd55' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574827817</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>shouldAlwaysBeTrue</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0,001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="ddc99f8b-1e1d-439e-aeed-80b81c84fd55" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1693574828870</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('65fbbc4b-c99a-4c51-b766-cf371be3cb55','block');changeSingleIcon('span-65fbbc4b-c99a-4c51-b766-cf371be3cb55');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchFeatureVerificationTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-65fbbc4b-c99a-4c51-b766-cf371be3cb55' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574828870</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>shouldDisplayNotFoundPageForInvalidQuery</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>4,786s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="65fbbc4b-c99a-4c51-b766-cf371be3cb55" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1693574834824</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('0cabf6a3-5ab7-41d5-89e6-9f8b2873532a','block');changeSingleIcon('span-0cabf6a3-5ab7-41d5-89e6-9f8b2873532a');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchFeatureVerificationTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0cabf6a3-5ab7-41d5-89e6-9f8b2873532a' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574834824</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>shouldDisplaySearchResultsForValidQuery</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>5,554s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="0cabf6a3-5ab7-41d5-89e6-9f8b2873532a" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1693574840524</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5b0e7792-f47b-4074-80ea-fdb6b679050c','block');changeSingleIcon('span-5b0e7792-f47b-4074-80ea-fdb6b679050c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringFeatureTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5b0e7792-f47b-4074-80ea-fdb6b679050c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574840524</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>colorSelectionOptionShouldBeAvailableInItemDetailsViewAfterFilteringByColor</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0,000s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="5b0e7792-f47b-4074-80ea-fdb6b679050c" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1693574840524</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('087344ef-79a3-4766-b10c-fe6dbf3f1513','block');changeSingleIcon('span-087344ef-79a3-4766-b10c-fe6dbf3f1513');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringFeatureTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-087344ef-79a3-4766-b10c-fe6dbf3f1513' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574840524</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>freeShippingTagNeedToBePresentAfterFiltering</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0,001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="087344ef-79a3-4766-b10c-fe6dbf3f1513" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1693574840525</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('671405aa-87b4-48a8-b5a2-4d3263695440','block');changeSingleIcon('span-671405aa-87b4-48a8-b5a2-4d3263695440');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringFeatureTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-671405aa-87b4-48a8-b5a2-4d3263695440' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574840525</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchResultPageContentNotChangedIfFilterApplicationCanceled</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0,000s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="671405aa-87b4-48a8-b5a2-4d3263695440" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1693574840526</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('10daf1fd-22d9-4b16-a3a9-8f196931e150','block');changeSingleIcon('span-10daf1fd-22d9-4b16-a3a9-8f196931e150');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.features.SearchResultFilteringFeatureTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-10daf1fd-22d9-4b16-a3a9-8f196931e150' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574840526</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchResultPriceFitPriceRangeAfterFiltering</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0,000s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="10daf1fd-22d9-4b16-a3a9-8f196931e150" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1693574842198</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('b762b869-37cc-42f7-9a10-f81843844434','block');changeSingleIcon('span-b762b869-37cc-42f7-9a10-f81843844434');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.wdcapatibilities.DrawCanvasDemoTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-b762b869-37cc-42f7-9a10-f81843844434' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574842198</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>shouldDrawCircleInCanvas</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>12,371s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="b762b869-37cc-42f7-9a10-f81843844434" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1693574864718</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('e40359b5-27ae-48a0-b98c-3dd9e723b1aa','block');changeSingleIcon('span-e40359b5-27ae-48a0-b98c-3dd9e723b1aa');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.wdcapatibilities.TimeoutDemoTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-e40359b5-27ae-48a0-b98c-3dd9e723b1aa' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574864718</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>shouldWaitUntilCalculationResultWillBePresent</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>11,232s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="e40359b5-27ae-48a0-b98c-3dd9e723b1aa" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1693574855387</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('ab8e1dd1-bae8-4914-9ba2-bdc09b20b5a7','block');changeSingleIcon('span-ab8e1dd1-bae8-4914-9ba2-bdc09b20b5a7');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>pl.globallogic.etsy.wdcapatibilities.TimeoutDemoTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-ab8e1dd1-bae8-4914-9ba2-bdc09b20b5a7' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1693574855387</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>shouldWaitForLandingPageImageToBeVisible</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>8,530s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="ab8e1dd1-bae8-4914-9ba2-bdc09b20b5a7" style="display: block;">
+					</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

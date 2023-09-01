@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0,001">
+  <properties />
+  
+  
+            <testcase name="searchResultPriceFitPriceRangeAfterFiltering" time="0,000" classname="pl.globallogic.etsy.features.SearchResultFilteringFeatureTest" />
+                <testcase name="searchResultPageContentNotChangedIfFilterApplicationCanceled" time="0,000" classname="pl.globallogic.etsy.features.SearchResultFilteringFeatureTest" />
+                <testcase name="freeShippingTagNeedToBePresentAfterFiltering" time="0,001" classname="pl.globallogic.etsy.features.SearchResultFilteringFeatureTest" />
+                <testcase name="colorSelectionOptionShouldBeAvailableInItemDetailsViewAfterFilteringByColor" time="0,000" classname="pl.globallogic.etsy.features.SearchResultFilteringFeatureTest" />
+      
+</testsuite>
