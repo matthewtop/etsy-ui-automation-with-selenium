@@ -2,6 +2,7 @@ pl\globallogic\etsy\features\SearchFeatureVerificationTest.class
 pl\globallogic\etsy\features\SearchResultsSortingTest.class
 pl\globallogic\configuration\SeleniumConfigurationVerificationTest.class
 pl\globallogic\etsy\BaseLandingPageTest.class
+pl\globallogic\etsy\wdcapatibilities\SelectHandlingDemoTest.class
 pl\globallogic\etsy\wdcapatibilities\TimeoutDemoTest.class
 pl\globallogic\etsy\wdcapatibilities\DrawCanvasDemoTest.class
 pl\globallogic\configuration\TestNGConfigurationVerificationTest.class

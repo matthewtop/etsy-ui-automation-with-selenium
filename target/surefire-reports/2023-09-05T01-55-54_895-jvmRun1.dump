@@ -1,6 +1,6 @@
-# Created at 2023-09-01T17:02:19.268
+# Created at 2023-09-05T01:55:55.950
 org.testng.TestNGException: 
-Cannot instantiate class pl.globallogic.etsy.BaseLandingPageTest
+Cannot instantiate class pl.globallogic.etsy.wdcapatibilities.BaseCapabilitiesDemoTest
 	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:41)
 	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
 	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
@@ -39,8 +39,8 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
 	... 31 more
-Caused by: java.lang.ClassCastException: class org.slf4j.helpers.NOPLogger cannot be cast to class org.testng.log4testng.Logger (org.slf4j.helpers.NOPLogger and org.testng.log4testng.Logger are in unnamed module of loader 'app')
-	at pl.globallogic.etsy.BaseLandingPageTest.<init>(BaseLandingPageTest.java:21)
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.testng.log4testng.Logger (ch.qos.logback.classic.Logger and org.testng.log4testng.Logger are in unnamed module of loader 'app')
+	at pl.globallogic.etsy.wdcapatibilities.BaseCapabilitiesDemoTest.<init>(BaseCapabilitiesDemoTest.java:15)
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	... 34 more
 
