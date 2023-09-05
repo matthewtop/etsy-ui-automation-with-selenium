@@ -1,6 +1,0 @@
-pl\globallogic\config\OurWebDriverManager.class
-pl\globallogic\etsy\features\pageobjects\ItemDetailsPage.class
-pl\globallogic\utils\InvalidQueryGenerator.class
-pl\globallogic\etsy\features\pageobjects\LandingPage.class
-pl\globallogic\etsy\features\pageobjects\SearchResultsPage.class
-pl\globallogic\etsy\features\pageobjects\InvalidSearchResultPage.class

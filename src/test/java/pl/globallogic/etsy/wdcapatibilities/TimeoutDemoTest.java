@@ -9,31 +9,30 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class TimeoutDemoTest extends BaseCapabilitiesDemoTest{
+public class TimeoutDemoTest extends BaseCapabilitiesDemoTest {
 
     @Test
-    public void shouldWaitForLandingPageImageToBeVisible(){
+    public void shouldWaitForLandscapeImageToBeVisible() {
         driver.get(LOADING_IMAGES);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        WebElement landscapeImage=driver.findElement(By.id("landscape"));
+        WebElement landscapeImage = driver.findElement(By.id("landscape"));
         Assert.assertTrue(landscapeImage.getAttribute("src").contains("landscape"));
     }
 
     @Test
-    public void shouldWaitUntilCalculationResultWillBePresent(){
+    public void shouldWaitUntilCalculationResultWillBePresent() {
         driver.get(SLOW_CALCULATOR);
         WebElement calculatorScreen = driver.findElement(By.className("screen"));
-        String expectedResult ="9";
-        //7 + 2 = 9
+        String expectedResult = "9";
+        // 7 + 2 = 9
         driver.findElement(By.xpath("//span[text()='7']")).click();
         driver.findElement(By.xpath("//span[text()='+']")).click();
         driver.findElement(By.xpath("//span[text()='2']")).click();
         driver.findElement(By.xpath("//span[text()='=']")).click();
-        new WebDriverWait(driver,Duration.ofSeconds(10)).until(
-                ExpectedConditions.textToBe(By.className("screen"),"9")
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(
+                ExpectedConditions.textToBe(By.className("screen"), expectedResult)
         );
         sleep();
-        Assert.assertEquals(calculatorScreen.getText(),expectedResult);
+        Assert.assertEquals(calculatorScreen.getText(), expectedResult);
     }
-
 }
